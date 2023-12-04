@@ -166,6 +166,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "C6prUMy",
+      "superhero": "Dudu",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Irving",
+      "first_appearance": "chemistry 2019",
+      "characters": "Alexis",
+      "alt_img": "https://i.pinimg.com/736x/0a/f1/2e/0af12eb8a792b1a4b65d505703d487ef.jpg"
+    },
+    {
+      "id": "Wf7frj1",
+      "superhero": "Bubu",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Melissa",
+      "first_appearance": "chemistr 2019",
+      "characters": "Giselle",
+      "alt_img": "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T1459A839PA3861PT28D1048130024W7500H10000/views/1,width=800,height=800,appearanceId=839,backgroundColor=F2F2F2/bubu-eating-cream-panda-bear-bubu-and-dudu-couple-sticker.jpg"
     }
   ]
 }
