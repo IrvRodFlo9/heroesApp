@@ -1,0 +1,28 @@
+<div class="flex flex-column">
+  <h3>Buscador</h3>
+
+  <mat-form-field>
+    <mat-label> Buscador de Héroes </mat-label>
+
+    <input
+      type="text"
+      matInput
+      placeholder="Héroe"
+      [formControl]="searchInput"
+      (input)="searchHero()"
+      [matAutocomplete]="auto"
+    />
+
+    <mat-autocomplete
+      #auto="matAutocomplete"
+      (optionSelected)="redirectTo($event.option.value.id)"
+    >
+      @for (hero of heroes; track hero) {
+      <mat-option [value]="hero">{{ hero.superhero }}</mat-option>
+      }
+      <mat-option *ngIf="heroes.length === 0 && searchInput.value!.length > 0"
+        >No sé encontró nada con el termino {{ searchInput.value }}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</div>
